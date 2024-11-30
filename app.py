@@ -312,7 +312,7 @@ class App:
 
     @staticmethod
     def on_change_models(model_size: str):
-    return gr.Checkbox(visible=True, value=False, label="Translate to English?", interactive=True)
+        return gr.Checkbox(visible=True, value=False, label="Translate to English?", interactive=True)
 
 
 parser = argparse.ArgumentParser()
